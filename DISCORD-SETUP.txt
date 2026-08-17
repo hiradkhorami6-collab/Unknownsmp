@@ -1,0 +1,14 @@
+اتصال Discord آماده است.
+
+امنیت:
+Webhook URL را داخل HTML/JS قرار ندهید.
+
+روش پیشنهادی:
+- Repository را به Vercel وصل کنید.
+- Environment Variable بسازید:
+  DISCORD_WEBHOOK_URL = Webhook URL دیسکورد
+- Deploy کنید.
+
+فرم سایت -> /api/whitelist -> Discord Webhook
+
+GitHub Pages به‌تنهایی API را اجرا نمی‌کند؛ اگر سایت را با GitHub Pages میزبانی می‌کنید، API باید جداگانه روی Vercel/Cloudflare/هاست دیگر اجرا شود.
