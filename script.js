@@ -19,7 +19,7 @@ document.getElementById("joinForm")?.addEventListener("submit",async e=>{
   btn.disabled=true;
   try{
     const DISCORD_WEBHOOK = "https://discord.com/api/webhooks/1538726440751865936/aqEnqnsTjOiCNq38KJMUTKG8RK6Kg0kfsFcBHzMRg6bvPPlvJHPdLeJ-ThpSX3CO_89k";
-    if (DISCORD_WEBHOOK === "https://discord.com/api/webhooks/1538726440751865936/aqEnqnsTjOiCNq38KJMUTKG8RK6Kg0kfsFcBHzMRg6bvPPlvJHPdLeJ-ThpSX3CO_89k") throw new Error("webhook missing");
+    if (DISCORD_WEBHOOK === "DISCORD_WEBHOOK") throw new Error("webhook missing");
     const res=await fetch(DISCORD_WEBHOOK,{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({embeds:[{title:"Unknown SMP Whitelist",color:10181046,fields:[{name:"Minecraft",value:String(data.minecraft),inline:true},{name:"Age",value:String(data.age),inline:true},{name:"Telegram",value:String(data.telegram||"ندارد"),inline:true},{name:"Reason",value:String(data.reason)}]}]})});
     if(!res.ok) throw new Error("send failed");
     msg.textContent="درخواستت با موفقیت برای تیم Unknown SMP ارسال شد.";
