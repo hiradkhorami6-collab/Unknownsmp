@@ -1,0 +1,8 @@
+body{background:#070711;color:#fff;font-family:tahoma;text-align:center;margin:0;padding:20px}
+header{display:flex;justify-content:space-around;align-items:center;padding:20px;border-radius:25px;background:#101020;border:1px solid #7d3cff}
+header img{width:90px}a{margin:15px;color:white}.hero{padding:60px}
+span{color:#9b4dff}.status,.players{display:flex;justify-content:center;gap:20px;flex-wrap:wrap}
+.status div,.card,.box{background:#111124;border:1px solid #873cff;border-radius:20px;padding:25px}
+.off{color:red}.card img{width:180px;height:220px;object-fit:contain}
+.card span{font-size:20px;font-weight:bold}.box{margin:30px auto;max-width:500px}
+input,button{padding:12px;margin:8px;border-radius:10px;border:1px solid #884cff;background:#090912;color:white}button{cursor:pointer}
