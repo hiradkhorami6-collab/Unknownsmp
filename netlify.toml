@@ -1,7 +1,0 @@
-[functions]
-  directory = "netlify/functions"
-
-[[redirects]]
-  from = "/api/whitelist"
-  to = "/.netlify/functions/whitelist"
-  status = 200
