@@ -1,0 +1,12 @@
+*{box-sizing:border-box}
+body{margin:0;background:radial-gradient(circle at top,#25104d,#050509 60%);color:white;font-family:tahoma,Arial;text-align:center;padding:30px}
+header,.hero,.box,.player,.stats div{background:rgba(18,18,35,.88);border:1px solid #9b4dff;border-radius:28px;box-shadow:0 0 35px #5b21b6}
+header{padding:25px;display:flex;justify-content:space-between;align-items:center}
+.logo{font-size:38px;font-weight:bold;color:#c084fc}
+.hero{padding:70px 20px;margin:25px 0}
+.stats,.players{display:flex;justify-content:center;gap:25px;flex-wrap:wrap}
+.stats div,.player,.box{padding:30px}
+.player{width:260px}
+.player img{height:270px;filter:drop-shadow(0 0 15px #a855f7)}
+input,textarea,button{display:block;margin:12px auto;padding:14px;width:300px;border-radius:14px;background:#090914;color:white;border:1px solid #9b4dff}
+button{background:#8b5cf6}
