@@ -1,1 +1,0 @@
-// Discord script placeholder
