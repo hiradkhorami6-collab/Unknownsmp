@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#080810">
+<title>UNKNOWN SMP — White-List</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <a class="brand" href="#home"><span>U</span> UNKNOWN <b>SMP</b></a>
+  <nav>
+    <a href="#home">خانه</a>
+    <a href="#telegram">تلگرام</a>
+    <a class="white" href="#join">White-List <em id="navTimer">در حال بارگذاری</em></a>
+  </nav>
+</header>
+
+<main id="home">
+<section class="hero">
+  <div class="eyebrow">UNKNOWN SMP</div>
+  <h1>درخواست <i>جوین</i></h1>
+  <p>برای ورود به سرور، فرم White-List را کامل کن.</p>
+</section>
+
+<section class="join" id="join">
+  <div class="head">
+    <small>WHITE-LIST</small>
+    <h2>درخواست ورود</h2>
+    <p>مشخصات شما مستقیم برای بررسی ارسال می‌شود.</p>
+  </div>
+
+  <form id="whitelistForm" novalidate>
+    <div class="row">
+      <label>نام کاربری Minecraft
+        <input id="minecraft" type="text" required maxlength="32" autocomplete="off" placeholder="مثلاً Hirad123">
+      </label>
+      <label>سن
+        <input id="age" type="number" required min="1" max="99" placeholder="20">
+      </label>
+    </div>
+
+    <label>آیدی تلگرام
+      <input id="telegramUser" type="text" required maxlength="64" autocomplete="off" placeholder="@username">
+    </label>
+
+    <label>دلیل ورود
+      <textarea id="reason" required maxlength="1500" placeholder="چرا می‌خواهی وارد UNKNOWN SMP شوی؟"></textarea>
+    </label>
+
+    <div class="bottom">
+      <p id="timerText">در حال محاسبه زمان باقی‌مانده…</p>
+      <button id="sendBtn" type="submit">ارسال درخواست <span>←</span></button>
+    </div>
+
+    <div id="status" class="status" role="status" aria-live="polite"></div>
+  </form>
+</section>
+
+<section id="telegram" class="telegram">
+  <div class="telegram-inner">
+    <div class="telegram-copy">
+      <div class="section-kicker">UNKNOWN SMP</div>
+      <h2>تلگرام</h2>
+      <p>اخبار، اطلاعیه‌ها و اطلاعات سرور را از چنل تلگرام دنبال کن.</p>
+      <a class="telegram-btn" href="https://t.me/Unknownsmp" target="_blank" rel="noopener">چنل تلگرام @Unknownsmp <span>↗</span></a>
+    </div>
+
+    <article class="manager-card">
+      <div class="skin-frame">
+        <img id="managerSkin" src="https://mc-heads.net/body/ImHiradkh/120" alt="اسکین Minecraft مدیریت ImHiradkh" loading="eager">
+      </div>
+      <div class="manager-info">
+        <span>مدیریت</span>
+        <h3>@ImHiradkh</h3>
+        <p>Minecraft: ImHiradkh</p>
+      </div>
+    </article>
+  </div>
+</section>
+</main>
+
+<footer>UNKNOWN <b>SMP</b><small>© 2026</small></footer>
+
+<script>
+window.UNKNOWN_SMP_CONFIG = {
+  deadline: "2026-08-27T03:24:47.568154Z",
+  webhook: "https://discord.com/api/webhooks/1539823681365082134/OtT6mpu-xt6e06w7ZAiHcpQF10YAMI1YIL9hC8Y9qNrBoIi6nj-Tt3YPe5hW0YLPUPR4"
+};
+</script>
+<script src="script.js"></script>
+</body>
+</html>
