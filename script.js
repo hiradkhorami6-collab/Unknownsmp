@@ -1,5 +1,5 @@
 // UNKNOWN SMP White-List
-const WEBHOOK_URL = "https://discord.com/api/webhooks/1539823681365082134/OtT6mpu-xt6e06w7ZAiHcpQF10YAMI1YIL9hC8Y9qNrBoIi6nj";
+const WEBHOOK_URL = "https://discord.com/api/webhooks/1539867105225089094/O-bmIK2MSzeOiMzxx7u3JzB4rH9YQeP_Tjbta49fWrQqyQyzqhzQ0VyLfPsxr6fPtf4B";
 
 const form = document.getElementById("whitelistForm");
 const btn = document.getElementById("sendBtn");
